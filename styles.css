@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(245, 214, 175);
+}
+
+header, footer {
+    text-align: center;
+    border: solid rgb(192, 164, 129) 1px;
+    background-color: rgb(219, 191, 157);
+    color: rgb(1, 71, 1);
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 60px;
+}
+
+#chair {
+    height: 200px;
+    padding: 10px;
+    margin: 15px 10px 0px 10px;
+}
+
+
+section {
+    border: 1px black solid;
+}
+
+#p1 {
+    width: 500px;
+    display: inline-block;
+    border: 1px black solid;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mid {
+    width: 500px;
+    text-align: center;
+}
