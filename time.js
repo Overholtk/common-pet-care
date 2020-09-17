@@ -1,13 +1,11 @@
-var adopt = prompt("Are you looking to adopt today?");
+var time = new Date().getHours();
 
-if(adopt = "yes"){
-    prompt("Thank you! Please see our contact info at the bottom of the page!");
-} else if(adopt = "Yes") {
-    prompt("Thank you! Please see our contact info at the bottom of the page!");
-} else if(adopt = "no") {
-    prompt("If you change your mind, feel free to come back!");
-} else if(adopt = "No") {
-    prompt("If you change your mind, feel free to come back!");
-} else {
-    prompt("Please try again.");
+if (time < 6) {
+    document.write("Good night!");
+} else if(time < 12){
+    document.write("Good meowning!");
+} else if( time < 20) {
+    document.write("Purrfect day!");
+} else{
+    document.write("Good night!")
 }
