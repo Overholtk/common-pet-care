@@ -2,7 +2,7 @@
 
 function getUserName(){
     var userName = prompt('Please enter your name:');
-    document.write(userName + ", ")
+    document.write(userName + ", ");
 }
 
 function isCatCute(){
@@ -12,7 +12,7 @@ function isCatCute(){
     } else if(cuteCat == "no"){
         document.write("You are a disgrace.");
     } else {
-        document.write("Hmm........")
+        document.write("Hmm........");
     }  
 }
 
@@ -26,6 +26,6 @@ function displayTime(){
     } else if( time < 20) {
         document.write("Purrfect day!");
     } else{
-        document.write("Good night!")
+        document.write("Good night!");
     }    
 }
